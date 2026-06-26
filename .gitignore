@@ -1,0 +1,23 @@
+# Claude Code (no subir al repo)
+.claude/
+
+# Credenciales y configuración local
+*.local.properties
+.env
+.env.*
+
+# Compilados Java
+backend/target/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+predictor/__pycache__/
+predictor/*.pyc
+predictor/venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
